@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    color: #213140;
+}
+
+body{
+    flex-wrap: wrap;
+    display: block;
+}
+
+header{
+    background: #FFDC04;
+    height: 100px;
+    display: block;
+}
+
+#logo{
+    float: left;
+    padding: 10px;
+    display: block;
+}
+
+#cuenta{
+    float: right;
+    padding: 20px;
+    display: block;
+}
+
+#cuenta a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #213140;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    transition: 0.5s ease;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #213140;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: dodgerblue;
+    color: #213140;
+}
+
+.main{
+    position: absolute;
+    top: 40px;
+    margin-left: 10px;
+}
+
+#logocuenta{
+    width: 40px;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#logocart{
+    width: 40px;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+.separador1{
+    height: 20px;
+}
+
+#promo{
+    width: 100%;
+    display: block;
+    transition: all 0.5s linear;
+}
+
+#promo:hover{
+    transform: scale(0.9);
+}
+
+.img img{
+    width: 30%;
+    float: left;
+}
+
+#esp1{
+    margin-left: 20%;
+    display: block;
+    transition: all 1s linear;
+    margin-right: 10px;
+}
+
+#esp1:hover{
+    transform: rotate(360deg);
+}
+
+#desc1 {
+    margin-left: 20px;
+    display: block;
+    transition: all 1s linear;
+}
+
+#desc1:hover{
+    transform: rotate(360deg);
+}
+
+#esp2{
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: all 1s linear;
+}
+
+#esp2:hover{
+    transform: rotate(360deg);
+}
+
+#desc2{
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-right: 10px;
+    transition: all 1s linear;
+}
+
+#desc2:hover{
+    transform: rotate(360deg);
+}
+#pago{
+    display: block;
+    width: 100%;
+}
+
+/*Transform y transition fueron usados para poner animacion a las imagenes*/ 
+
+#baner{
+    width: 100%;
+    height: 300px;
+    display: block;
+    transition: all 0.5s linear;
+}
+
+#baner:hover{
+    transform: scale(0.9);
+}
+
+.imgpro img{
+    width: 46%;
+    float: left;
+}
+
+#cat{
+    margin-right: 25px;
+    margin-left: 25px;
+    display: block;
+    margin-top: 20px;
+    transition: all 0.5s linear;
+}
+
+#cat:hover{
+    transform: scale(0.9);
+}
+
+#cat1{
+    display: block;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: all 0.5s linear;
+}
+
+#cat1:hover{
+    transform: scale(0.9);
+}
+
+#mac{
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+#mac:hover{
+    transform: scale(0.9);
+}
+
+.marcas img{
+    width: 50%;
+    margin: 20px;
+    float: left;
+        
+}
+
+#dell{
+    width: 250px;
+    height: 250px;
+    margin-left: 17%;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#dell:hover{
+    transform: translate(50px,50px);
+}
+
+#hp{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#hp:hover{
+   transform: translate(50px,50px);
+}
+
+#macpro{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#macpro:hover{
+   transform: translate(50px,-50px);
+}
+
+#acer{
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#acer:hover{
+  transform: translate(50px,50px);
+}
+
+#asus{
+    width: 300px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#asus:hover{
+   transform: translate(50px,-50px);
+}
+
+#leno{
+    width: 300px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#leno:hover{
+   transform: translate(50px,50px);
+}
+
+#nosotros{
+    height: 110px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    padding: 15px 1em 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#valores .mision{
+    height: 110px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    margin: 20px;
+    padding: 15px 1em 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#valores .vision{
+    height: 110px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    margin: 20px;
+    padding: 15px 1em 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    text-align: center;
+    position: static;
+    width: 100%;
+    height: 40px;
+}
+
+footer nav{
+    text-align: center;
+    position: static;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-self: flex-end;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+footer nav ul{
+    text-align: center;
+    position: static;
+    width: 100%;
+    height: 70px;
+}
