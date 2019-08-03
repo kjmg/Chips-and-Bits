@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    color: #213140;
+}
+
+body{
+    flex-wrap: wrap;
+    min-height: 120vh;
+}
+header{
+    background: #F2D1B3;
+    height: 100px;
+    background-size: contain;
+    background-position: top;
+}
+
+#logo{
+    float: left;
+    padding: 10px;
+}
+
+#cuenta{
+    float: right;
+    padding: 20px;
+}
+
+#cuenta a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #213140;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    transition: 0.5s ease;
+}
+
+#cuenta a:hover{
+    background-color: #BF3945;
+    color: #213140;
+}
+
+ul{
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #213140;
+    padding: 5px 20px;
+    border: 2px solid #fff;
+    transition: 0.5s ease;
+}
+
+ul li a:hover{
+    background-color: #BF3945;
+    color: #213140;
+}
+
+.main{
+    position: absolute;
+    top: 40px;
+    margin-left: 10px;
+}
+
+ul li #active a{
+    background-color: #BF3945;
+    color: #213140;
+}
+
+#logocuenta{
+    width: 40px;
+    height: 40px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#logocart{
+    width: 40px;
+    height: 40px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+
+#nosotros{
+    height: 110px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    padding: 15px 1em 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#valores .mision{
+    height: 110px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    margin: 20px;
+    padding: 15px 1em 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#valores .vision{
+    height: 110px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    margin: 20px;
+    padding: 15px 1em 18px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+#nosotrosimg{
+    width: 200px;
+    height: 200px;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+
+footer nav{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-self: flex-end;
+    align-content: center;
+}
+
+footer nav ul{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
