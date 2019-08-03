@@ -11,10 +11,8 @@ body{
 }
 
 header{
-    background: #F2D1B3;
+    background: #FFDC04;
     height: 100px;
-    background-size: contain;
-    background-position: top;
     display: block;
 }
 
@@ -60,7 +58,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #BF3945;
+    background-color: dodgerblue;
     color: #213140;
 }
 
@@ -97,6 +95,7 @@ ul li a:hover{
 #promo:hover{
     transform: scale(0.9);
 }
+
 .img img{
     width: 30%;
     float: left;
@@ -105,43 +104,43 @@ ul li a:hover{
 #esp1{
     margin-left: 20%;
     display: block;
-    transition: all 0.5s linear;
+    transition: all 1s linear;
     margin-right: 10px;
 }
 
 #esp1:hover{
-    transform: scale(0.9);
+    transform: rotate(360deg);
 }
 
 #desc1 {
     margin-left: 20px;
     display: block;
-    transition: all 0.5s linear;
+    transition: all 1s linear;
 }
 
 #desc1:hover{
-    transform: scale(0.9);
+    transform: rotate(360deg);
 }
 
 #esp2{
     margin-left: 20px;
     margin-top: 30px;
-    transition: all 0.5s linear;
+    transition: all 1s linear;
 }
 
 #esp2:hover{
-    transform: scale(0.9);
+    transform: rotate(360deg);
 }
 
 #desc2{
     margin-left: 20%;
     margin-top: 30px;
     margin-right: 10px;
-    transition: all 0.5s linear;
+    transition: all 1s linear;
 }
 
 #desc2:hover{
-    transform: scale(0.9);
+    transform: rotate(360deg);
 }
 #pago{
     display: block;
@@ -149,6 +148,128 @@ ul li a:hover{
 }
 
 /*Transform y transition fueron usados para poner animacion a las imagenes*/ 
+
+#baner{
+    width: 100%;
+    height: 300px;
+    display: block;
+    transition: all 0.5s linear;
+}
+
+#baner:hover{
+    transform: scale(0.9);
+}
+
+.imgpro img{
+    width: 46%;
+    float: left;
+}
+
+#cat{
+    margin-right: 25px;
+    margin-left: 25px;
+    display: block;
+    margin-top: 20px;
+    transition: all 0.5s linear;
+}
+
+#cat:hover{
+    transform: scale(0.9);
+}
+
+#cat1{
+    display: block;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: all 0.5s linear;
+}
+
+#cat1:hover{
+    transform: scale(0.9);
+}
+
+#mac{
+    height: 300px;
+    margin-left: 15%;
+    transition: all 0.5s linear;
+}
+
+#mac:hover{
+    transform: scale(0.9);
+}
+
+.marcas img{
+    width: 50%;
+    margin: 20px;
+    float: left;
+        
+}
+
+#dell{
+    width: 250px;
+    height: 250px;
+    margin-left: 17%;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#dell:hover{
+    transform: translate(50px,50px);
+}
+
+#hp{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#hp:hover{
+   transform: translate(50px,50px);
+}
+
+#macpro{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#macpro:hover{
+   transform: translate(50px,-50px);
+}
+
+#acer{
+    width: 300px;
+    margin-left: 10%;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#acer:hover{
+  transform: translate(50px,50px);
+}
+
+#asus{
+    width: 300px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#asus:hover{
+   transform: translate(50px,-50px);
+}
+
+#leno{
+    width: 300px;
+    margin-top: 30px;
+    transition: all 2s linear;
+}
+
+#leno:hover{
+   transform: translate(50px,50px);
+}
 
 #nosotros{
     height: 110px;
