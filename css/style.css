@@ -7,23 +7,27 @@
 
 body{
     flex-wrap: wrap;
-    min-height: 120vh;
+    display: block;
 }
+
 header{
     background: #F2D1B3;
     height: 100px;
     background-size: contain;
     background-position: top;
+    display: block;
 }
 
 #logo{
     float: left;
     padding: 10px;
+    display: block;
 }
 
 #cuenta{
     float: right;
     padding: 20px;
+    display: block;
 }
 
 #cuenta a{
@@ -33,11 +37,6 @@ header{
     padding: 5px 20px;
     border: 2px solid #fff;
     transition: 0.5s ease;
-}
-
-#cuenta a:hover{
-    background-color: #BF3945;
-    color: #213140;
 }
 
 ul{
@@ -71,11 +70,6 @@ ul li a:hover{
     margin-left: 10px;
 }
 
-ul li #active a{
-    background-color: #BF3945;
-    color: #213140;
-}
-
 #logocuenta{
     width: 40px;
     height: 40px;
@@ -89,6 +83,72 @@ ul li #active a{
     padding-left: 80px;
     padding-top: 10px;
 }
+
+.separador1{
+    height: 20px;
+}
+
+#promo{
+    width: 100%;
+    display: block;
+    transition: all 0.5s linear;
+}
+
+#promo:hover{
+    transform: scale(0.9);
+}
+.img img{
+    width: 30%;
+    float: left;
+}
+
+#esp1{
+    margin-left: 20%;
+    display: block;
+    transition: all 0.5s linear;
+    margin-right: 10px;
+}
+
+#esp1:hover{
+    transform: scale(0.9);
+}
+
+#desc1 {
+    margin-left: 20px;
+    display: block;
+    transition: all 0.5s linear;
+}
+
+#desc1:hover{
+    transform: scale(0.9);
+}
+
+#esp2{
+    margin-left: 20px;
+    margin-top: 30px;
+    transition: all 0.5s linear;
+}
+
+#esp2:hover{
+    transform: scale(0.9);
+}
+
+#desc2{
+    margin-left: 20%;
+    margin-top: 30px;
+    margin-right: 10px;
+    transition: all 0.5s linear;
+}
+
+#desc2:hover{
+    transform: scale(0.9);
+}
+#pago{
+    display: block;
+    width: 100%;
+}
+
+/*Transform y transition fueron usados para poner animacion a las imagenes*/ 
 
 #nosotros{
     height: 110px;
@@ -122,14 +182,9 @@ ul li #active a{
     border-radius: 10px;
 }
 
-#nosotrosimg{
-    width: 200px;
-    height: 200px;
-}
-
 footer{
     text-align: center;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     height: 40px;
@@ -137,7 +192,7 @@ footer{
 
 footer nav{
     text-align: center;
-    position: fixed;
+    position: static;
     bottom: 0;
     top: 0;
     width: 100%;
@@ -145,11 +200,12 @@ footer nav{
     display: flex;
     align-self: flex-end;
     align-content: center;
+    margin-bottom: 10px;
 }
 
 footer nav ul{
     text-align: center;
-    position: fixed;
+    position: static;
     bottom: 0;
     width: 100%;
     height: 70px;
