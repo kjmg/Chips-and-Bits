@@ -190,8 +190,7 @@ ul li a:hover{
 }
 
 #mac{
-    height: 300px;
-    margin-left: 15%;
+    width: 100%;
     transition: all 0.5s linear;
 }
 
