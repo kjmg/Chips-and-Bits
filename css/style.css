@@ -8,10 +8,11 @@
 body{
     flex-wrap: wrap;
     display: block;
+    background: #F9FFF9;
 }
 
 header{
-    background: #FFDC04;
+    background: #FF9650;
     height: 100px;
     display: block;
 }
@@ -58,7 +59,12 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: dodgerblue;
+    background-color: #F22929;
+    color: #213140;
+}
+
+#cuenta a:hover{
+    background-color: #F22929;
     color: #213140;
 }
 
@@ -268,6 +274,51 @@ ul li a:hover{
 
 #leno:hover{
    transform: translate(50px,50px);
+}
+
+.sociales h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+.sociales{
+    font-size: 48px;
+    height: 110px;
+    background: #F2F2F2;
+    text-align: center;
+    margin: 20px;
+    padding: 20px 0 5px;
+    border-radius: 10px;
+}
+
+.sociales .facebook:hover{
+    background-color: #3b5998;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.sociales .google:hover{
+    background-color: #db4a39;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.sociales .instagram:hover{
+    background-color: #3f729b;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.sociales .twitter:hover{
+    background-color: #00acee;
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.sociales .playstore:hover{
+    background-color: #ffce44;
+    padding: 10px;
+    transition: 0.5s ease;
 }
 
 #nosotros{
